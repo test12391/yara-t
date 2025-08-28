@@ -57,22 +57,8 @@ rule CobaltStrike_W : Commodity
 rule HKTL_Win_CobaltStrike : Commodity
 {
 	meta:
-        id = "gzIxctaiGZf4jXkwWO0BE"
-        fingerprint = "ab5c7c5ea9d7d0587e8b2b327c138b2ba21ad6fbbef63f67935dab60f116088e"
-        version = "1.0"
-        creation_date = "2021-05-01"
-        first_imported = "2021-12-30"
-        last_modified = "2021-12-30"
-        status = "RELEASED"
         sharing = "TLP:AMBER"
-        source = "test"
-        author = "@test"
-        description = "Identifies Avaddon ransomware."
         category = "INFO"
-        malware = "AVADDON"
-        malware_type = "RANSOMWARE"
-        mitre_att = "S0640"
-
 	strings:
 		$s1 = "%s (admin)" fullword
 		$s2 = {48 54 54 50 2F 31 2E 31 20 32 30 30 20 4F 4B 0D 0A 43 6F 6E 74 65 6E 74 2D 54 79 70 65 3A 20 61 70 70 6C 69 63 61 74 69 6F 6E 2F 6F 63 74 65 74 2D 73 74 72 65 61 6D 0D 0A 43 6F 6E 74 65 6E 74 2D 4C 65 6E 67 74 68 3A 20 25 64 0D 0A 0D 0A 00}
