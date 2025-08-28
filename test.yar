@@ -1,4 +1,4 @@
-rule CobaltStrike_Sleeve_BeaconLoader_VA_x64_o_v4_3_v4_4_v4_5_and_v4_6
+rule CobaltStrike_Test
 {
 	meta:
         id = "gzIxctaiGZf4jXkwWO0BE"
