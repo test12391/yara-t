@@ -12,7 +12,7 @@ rule CobaltStrike_Test
         source = "test"
         author = "@test"
         description = "Identifies Avaddon ransomware."
-        category = "MALWARE"
+        category = "Tool"
         malware = "AVADDON"
         malware_type = "RANSOMWARE"
         mitre_att = "S0640"
