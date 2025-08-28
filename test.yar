@@ -54,7 +54,7 @@ rule CobaltStrike_W : Commodity
 }
 
 
-rule HKTL_Win_CobaltStrike : Commodity
+rule HKTL_Win_CobaltStrike_T : Commodity
 {
 	meta:
         sharing = "TLP:WHITE"
