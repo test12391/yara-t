@@ -8,7 +8,7 @@ rule CobaltStrike_Sleeve_BeaconLoader_VA_x64_o_v4_3_v4_4_v4_5_and_v4_6
         first_imported = "2021-12-30"
         last_modified = "2021-12-30"
         status = "RELEASED"
-        sharing = "TLP:WHITE"
+        sharing = "TLP:AMBER"
         source = "test"
         author = "@test"
         description = "Identifies Avaddon ransomware."
