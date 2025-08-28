@@ -1,21 +1,10 @@
 rule CobaltStrike_W : Commodity
 {
-	meta:
-        id = "gzIxctaiGZf4jXkwWO0BE"
-        fingerprint = "ab5c7c5ea9d7d0587e8b2b327c138b2ba21ad6fbbef63f67935dab60f116088e"
-        version = "1.0"
-        creation_date = "2021-05-01"
-        first_imported = "2021-12-30"
-        last_modified = "2021-12-30"
-        status = "RELEASED"
-        sharing = "TLP:WHITE"
-        source = "test"
-        author = "@test"
-        description = "Identifies Avaddon ransomware."
-        category = "Tool"
-        malware = "AVADDON"
-        malware_type = "RANSOMWARE"
-        mitre_att = "S0640"
+    meta:
+        tags = "RA123"
+        Source = "https://github.com/mandiant/red_team_tool_countermeasures"
+        reference = "md5,f7d9961463b5110a3d70ee2e97842ed3"
+        description = "查找'Inject'方法在Excavator PE."
 	strings:
 		$core_sig = {
       C6 44 24 48 56
