@@ -1,4 +1,4 @@
-rule CobaltStrike_Test
+rule CobaltStrike_W : Commodity
 {
 	meta:
         id = "gzIxctaiGZf4jXkwWO0BE"
