@@ -64,7 +64,7 @@ rule HKTL_Win_CobaltStrike : Commodity
         first_imported = "2021-12-30"
         last_modified = "2021-12-30"
         status = "RELEASED"
-        sharing = "TLP:WHITE"
+        sharing = "TLP:AMBER"
         source = "test"
         author = "@test"
         description = "Identifies Avaddon ransomware."
