@@ -8,7 +8,7 @@ rule CobaltStrike_Test
         first_imported = "2021-12-30"
         last_modified = "2021-12-30"
         status = "RELEASED"
-        sharing = "TLP:AMBER"
+        sharing = "TLP:WHITE"
         source = "test"
         author = "@test"
         description = "Identifies Avaddon ransomware."
